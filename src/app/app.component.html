@@ -1,0 +1,6 @@
+<h1>
+  {{title}}
+</h1>
+
+<button (click)="showComponent=!showComponent">Destroy Component</button>
+<app-auto-unsubscribe *ngIf="showComponent"></app-auto-unsubscribe>
