@@ -2,8 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
-# To start 
-run project with `npm start`
+# To start project from cmd
+Run project with `npm start`
 
 # Read post
 
