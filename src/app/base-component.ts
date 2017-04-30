@@ -1,6 +1,7 @@
 import { Subscription } from 'rxjs/Subscription';
 import { Observable } from 'rxjs/Observable';
 import { OnDestroy } from '@angular/core';
+import "./safe-subscribe"
 
 export class BaseComponent implements OnDestroy {
     private _subscriptions: Subscription[] = [];
